@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+    scrollbar-width: auto;
+    scrollbar-color: #6366f1 #1f2937;
+}
