@@ -1,5 +1,5 @@
-import React, { useState, useRef } from "react";
-import { evaluate } from "mathjs";
+import React, { useState, useRef } from 'react';
+import { evaluate } from 'mathjs';
 
 const buttons = [
     ["C", "Del", "%", "/"],
@@ -9,12 +9,11 @@ const buttons = [
     ["0", "00", ".", "="]
 ];
 
-export default function Calculator() {
+const Calculator = () => {
     const [input, setInput] = useState("");
     const [result, setResult] = useState("");
     const inputRef = useRef(null);
 
-    // Add this handler inside the component:
     const handleWheelScroll = (e) => {
         if (inputRef.current) {
             e.preventDefault();
@@ -32,9 +31,9 @@ export default function Calculator() {
             setInput(input.slice(0, -1));
         } else if (value === "=") {
             try {
-                // Replace all % with % operator logic (a % b => a mod b)
                 const formattedInput = input.replace(/(\d+)%(?=\d)/g, (_, num) => `${num}/100*`);
                 const evalResult = evaluate(formattedInput);
+
                 setResult(evalResult);
             } catch {
                 setResult("Error");
@@ -75,17 +74,13 @@ export default function Calculator() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center p-4">
-            <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl shadow-2xl w-full max-w-sm">
+        <div className="flex items-center justify-center min-h-screen md:p-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+            <div className="w-full max-w-sm p-6 shadow-2xl bg-white/10 backdrop-blur-md rounded-2xl">
                 <div className="mb-4 text-right text-white">
-                    {/*
-          <div className="text-sm text-gray-400">{input || "0"}</div>
-          */}
-
                     <div
                         ref={inputRef}
                         onWheel={handleWheelScroll}
-                        className="text-sm text-gray-400 max-w-full overflow-x-auto whitespace-nowrap overflow-hidden scrollbar-none"
+                        className="max-w-full overflow-hidden overflow-x-auto text-sm text-gray-400 whitespace-nowrap"
                     >
                         {input || "0"}
                     </div>
@@ -100,7 +95,7 @@ export default function Calculator() {
                         <button
                             key={i}
                             onClick={() => handleClick(btn)}
-                            className={`py-4 text-xl rounded-xl font-semibold shadow-md transition duration-300 ease-in-out 
+                            className={`p-4 text-xl rounded-xl font-semibold shadow-md transition duration-300 ease-in-out 
                 ${btn === "="
                                     ? "col-span-1 bg-emerald-500 hover:bg-emerald-600 text-white"
                                     : btn === "C"
@@ -118,5 +113,7 @@ export default function Calculator() {
                 </div>
             </div>
         </div>
-    );
-}
+    )
+};
+
+export default Calculator;
