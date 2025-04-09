@@ -1,45 +1,53 @@
-# 🧼 Basic Calculator App
+# 🥮 Basic Calculator Application
 
-A responsive and stylish calculator built using **ReactJS** and **Tailwind CSS**.  
-Supports light/dark mode, input history with animations, and keyboard/mouse input.  
-Built as a **frontend-only** project, designed for smooth user experience with minimal UI.
+A responsive, modern calculator developed using **ReactJS** and **Tailwind CSS**.  
+This application supports both light and dark themes, animated calculation history, and seamless interaction through keyboard and mouse input.  
+Designed as a **frontend-only** project, it focuses on delivering a smooth and intuitive user experience with a minimal and clean interface.
 
 ---
 
 ## 🔗 Live Demo 🌐
 
-🔗 [Go Ahead](https://pavithrj.github.io/numerix/)
+🔗 [Crunch Some Numbers!](https://pavithrj.github.io/numerix/)
 
 ---
 
-## ✨ Features 🚀
+## 💪 Key Features
 
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `/`, `%`)
-- 💡 Light/Dark theme toggle
-- 💬 History of previous calculations (up to 10 entries)
-- ↻ Clickable history to re-use past expressions
-- ❌ Clear history button
+- ✅ Perform basic arithmetic operations (`+`, `-`, `*`, `/`, `%`)
+- 💡 Toggle between light and dark modes
+- 💬 View calculation history (up to 10 previous entries)
+- ↻ Clickable history items for quick reuse
+- ❌ Option to clear history
 - ⌨️ Full keyboard support (Enter, Delete, Backspace, numbers/operators)
-- 🎮 Smooth animations using Tailwind CSS (no external libraries)
+- 🎮 Smooth, responsive animations powered by Tailwind CSS
 
 ---
 
-## 🛠️ Tech Stack 💻
+## 🔠 Technologies Used
 
-- ⚛️ **ReactJS**
-- 💨 **Tailwind CSS**
-- 📊 **MathJS** (for safe expression evaluation)
-- ⚡ **Vite** (for fast development)
+- ⚛️ **ReactJS** – Frontend framework
+- 💨 **Tailwind CSS** – Utility-first CSS framework
+- 📜 **MathJS** – For accurate and safe expression evaluation
+- ⚡ **Vite** – Lightning-fast build and development tool
 
 ---
 
-## 📦 Getting Started 🚧
+## 🤪 Testing & Coverage
+
+Basic unit tests can be written using [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/).  
+View the sample test coverage report here: [Coverage Report](./coverage/lcov-report/index.html)  
+(Generated locally using `npm test -- --coverage`, not pushed to GitHub but available for demo purposes.)
+
+---
+
+## 📦 Getting Started
 
 ### 📋 Prerequisites
 
-- Node.js and npm installed
+- Ensure Node.js and npm are installed on your machine
 
-### 🧩 Installation
+### 🧹 Installation Steps
 
 ```bash
 git clone https://github.com/your-username/basic-calculator-react.git
@@ -50,7 +58,17 @@ npm run dev
 
 ---
 
-## 🗂️ Folder Structure 🧾
+## 🩰 Available Scripts
+
+In the project directory, you can run:
+
+- `npm run dev` – Runs the app in development mode
+- `npm run build` – Builds the app for production
+- `npm run preview` – Previews the production build
+
+---
+
+## 📂 Project Structure
 
 ```
 src/
@@ -70,9 +88,9 @@ src/
 
 ---
 
-## 🎨 Custom Tailwind Animations 🌈
+## 🎨 Custom Animations with Tailwind
 
-Used for input warnings and history entry animations:
+Tailwind animations used for UI feedback and smooth transitions:
 
 ```js
 extend: {
@@ -95,25 +113,27 @@ extend: {
 
 ---
 
-## 📷 Screenshots 🖼️
+## 📷 Application Screenshots
 
-Add a screenshot or screen recording of your app in action:
+### Light Mode  
+![Light Mode](./screenshots/light-mode.png)  
+A bright, clean interface optimized for daytime use. Includes a simple layout with clear, responsive buttons.
 
-### Light Mode
-![Light Mode](./screenshots/light-mode.png)
-A clean and bright interface for daytime usage. Shows basic calculator layout with responsive buttons and soft UI shadows.
+### Dark Mode  
+![Dark Mode](./screenshots/dark-mode.png)  
+A sleek dark theme suitable for low-light environments, easily toggled via the interface.
 
-### Dark Mode
-![Dark Mode](./screenshots/dark-mode.png)
-Elegant dark theme perfect for night-time usage, activated with a single toggle switch.
-
-### History in Action
-![History](./screenshots/history-demo.gif)
-Shows animated list of recent calculations. Users can click on any history entry to re-use it instantly.
-
-> _You can save your screenshots inside a `/screenshots` folder in the root directory._
+### Calculation History  
+![History](./screenshots/history-demo.gif)  
+Displays an animated, interactive list of recent calculations. Users can click on an entry to reuse it instantly.
 
 ---
 
-> Crafted with 🧠 + ❤️ using React and Tailwind – because math should look good too!
+## 🔍 Meta / Inspiration
 
+Built as a personal project to explore ReactJS, Tailwind CSS, and good UI/UX design principles.  
+The idea was to create a stylish, keyboard-friendly calculator with smooth transitions and practical functionality.
+
+---
+
+> Developed with care using React and Tailwind CSS – because great design makes even math enjoyable.
