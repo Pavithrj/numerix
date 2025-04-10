@@ -1,39 +1,64 @@
-# 🥮 Basic Calculator Application
+# 🧮 Basic Calculator Application
 
-A responsive, modern calculator developed using **ReactJS** and **Tailwind CSS**.  
-This application supports both light and dark themes, animated calculation history, and seamless interaction through keyboard and mouse input.  
-Designed as a **frontend-only** project, it focuses on delivering a smooth and intuitive user experience with a minimal and clean interface.
+A sleek, modern calculator built with **ReactJS** and **Tailwind CSS**, offering a responsive and accessible interface across devices. This application features both light and dark modes, animated calculation history, and seamless support for both keyboard and mouse inputs.
+
+Crafted as a **frontend-only** solution, the project emphasizes clean design, smooth user interactions, and practical functionality—all wrapped in a professional UI experience.
 
 ---
 
-## 🔗 Live Demo 🌐
+## 🗂️ Table of Contents
+
+- [🧮 Basic Calculator Application](#-basic-calculator-application)
+  - [🗂️ Table of Contents](#️-table-of-contents)
+  - [🌐 Live Demo](#-live-demo)
+  - [⚙️ Key Features](#️-key-features)
+  - [🛠️ Technologies Used](#️-technologies-used)
+  - [🧪 Testing \& Coverage](#-testing--coverage)
+  - [🚀 Getting Started](#-getting-started)
+    - [📦 Prerequisites](#-prerequisites)
+    - [🧰 Installation Steps](#-installation-steps)
+  - [🧾 Available Scripts](#-available-scripts)
+  - [🗃️ Project Structure](#️-project-structure)
+  - [🎞️ Custom Animations with Tailwind](#️-custom-animations-with-tailwind)
+  - [🖼️ Application Screenshots](#️-application-screenshots)
+    - [🌞 Light Mode](#-light-mode)
+    - [🌙 Dark Mode](#-dark-mode)
+    - [🧮 Calculation History](#-calculation-history)
+  - [💡 Meta / Inspiration](#-meta--inspiration)
+  - [🏷️ Branding \& Favicon](#️-branding--favicon)
+  - [🚄 Performance](#-performance)
+  - [🌍 Deployment](#-deployment)
+
+---
+
+## 🌐 Live Demo
 
 🔗 [Crunch Some Numbers!](https://pavithrj.github.io/numerix/)
 
 ---
 
-## 💪 Key Features
+## ⚙️ Key Features
 
-- ✅ Perform basic arithmetic operations (`+`, `-`, `*`, `/`, `%`)
-- 💡 Toggle between light and dark modes
-- 💬 View calculation history (up to 10 previous entries)
-- ↻ Clickable history items for quick reuse
-- ❌ Option to clear history
+- ➕ Perform basic arithmetic operations (`+`, `-`, `*`, `/`, `%`)
+- 🌗 Toggle between light and dark modes
+- 🧾 View calculation history (up to 10 previous entries)
+- 🔁 Clickable history items for quick reuse
+- 🧹 Option to clear history
 - ⌨️ Full keyboard support (Enter, Delete, Backspace, numbers/operators)
-- 🎮 Smooth, responsive animations powered by Tailwind CSS
+- 🌀 Smooth, responsive animations powered by Tailwind CSS
 
 ---
 
-## 🔠 Technologies Used
+## 🛠️ Technologies Used
 
 - ⚛️ **ReactJS** – Frontend framework
-- 💨 **Tailwind CSS** – Utility-first CSS framework
-- 📜 **MathJS** – For accurate and safe expression evaluation
+- 🌬️ **Tailwind CSS** – Utility-first CSS framework
+- 📐 **MathJS** – For accurate and safe expression evaluation
 - ⚡ **Vite** – Lightning-fast build and development tool
 
 ---
 
-## 🤪 Testing & Coverage
+## 🧪 Testing & Coverage
 
 Basic unit tests can be written using [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/).  
 View the sample test coverage report here: [Coverage Report](./coverage/lcov-report/index.html)  
@@ -41,13 +66,13 @@ View the sample test coverage report here: [Coverage Report](./coverage/lcov-rep
 
 ---
 
-## 📦 Getting Started
+## 🚀 Getting Started
 
-### 📋 Prerequisites
+### 📦 Prerequisites
 
 - Ensure Node.js and npm are installed on your machine
 
-### 🧹 Installation Steps
+### 🧰 Installation Steps
 
 ```bash
 git clone https://github.com/your-username/basic-calculator-react.git
@@ -58,7 +83,7 @@ npm run dev
 
 ---
 
-## 🩰 Available Scripts
+## 🧾 Available Scripts
 
 In the project directory, you can run:
 
@@ -68,7 +93,7 @@ In the project directory, you can run:
 
 ---
 
-## 📂 Project Structure
+## 🗃️ Project Structure
 
 ```
 src/
@@ -88,7 +113,7 @@ src/
 
 ---
 
-## 🎨 Custom Animations with Tailwind
+## 🎞️ Custom Animations with Tailwind
 
 Tailwind animations used for UI feedback and smooth transitions:
 
@@ -113,27 +138,45 @@ extend: {
 
 ---
 
-## 📷 Application Screenshots
+## 🖼️ Application Screenshots
 
-### Light Mode  
+### 🌞 Light Mode  
 ![Light Mode](./screenshots/light-mode.png)  
 A bright, clean interface optimized for daytime use. Includes a simple layout with clear, responsive buttons.
 
-### Dark Mode  
+### 🌙 Dark Mode  
 ![Dark Mode](./screenshots/dark-mode.png)  
 A sleek dark theme suitable for low-light environments, easily toggled via the interface.
 
-### Calculation History  
+### 🧮 Calculation History  
 ![History](./screenshots/history-demo.gif)  
 Displays an animated, interactive list of recent calculations. Users can click on an entry to reuse it instantly.
 
 ---
 
-## 🔍 Meta / Inspiration
+## 💡 Meta / Inspiration
 
 Built as a personal project to explore ReactJS, Tailwind CSS, and good UI/UX design principles.  
 The idea was to create a stylish, keyboard-friendly calculator with smooth transitions and practical functionality.
 
 ---
 
-> Developed with care using React and Tailwind CSS – because great design makes even math enjoyable.
+## 🏷️ Branding & Favicon
+
+This calculator is branded as **Numerix** and includes a custom logo and favicon for consistent visual identity.
+
+---
+
+## 🚄 Performance
+
+Optimized with **Vite** and **Tree-Shaken Tailwind CSS**, ensuring lightning-fast loading and performance across devices.
+
+---
+
+## 🌍 Deployment
+
+Deployed via **GitHub Pages** for easy access and sharing.
+
+---
+
+> 🧠 Designed and built using React and Tailwind CSS — because even math deserves a modern, stylish vibe.
