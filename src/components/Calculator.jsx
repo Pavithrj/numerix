@@ -187,7 +187,9 @@ const Calculator = () => {
                                 className={`flex justify-between transition-all duration-500 rounded cursor-pointer hover:bg-white/20 animate-fadeInUp ${theme === 'dark' ? "text-gray-300" : "text-black"}`}
                             >
                                 <span>{item.expression}</span>
-                                <span className={`${theme === 'dark' ? 'text-emerald-400' : 'text-black'}`}>{item.result}</span>
+                                <span className={`${theme === 'dark' ? 'text-emerald-400' : 'text-black'}`}>
+                                    {item.result}
+                                </span>
                             </li>
                         ))}
                     </ul>
