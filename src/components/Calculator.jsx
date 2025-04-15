@@ -14,24 +14,24 @@ const MAX_INPUT_LENGTH = 25;
 const operators = ["+", "-", "*", "/", "%"];
 
 const Calculator = () => {
-    const [input, setInput] = useState('');
-    const [result, setResult] = useState('');
+    const [input, setInput] = useState("");
+    const [result, setResult] = useState("");
     const inputRef = useRef(null);
 
-    const [history, setHistory] = useState(() => JSON.parse(localStorage.getItem('calc-history')) || []);
+    const [history, setHistory] = useState(() => JSON.parse(localStorage.getItem("calc-history")) || []);
     const [showHistory, setShowHistory] = useState(false);
     const [warning, setWarning] = useState(false);
 
     const [theme, setTheme] = useState(() => {
-        const stored = localStorage.getItem('theme');
+        const stored = localStorage.getItem("theme");
         if (stored) return stored;
-        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        return prefersDark ? 'dark' : 'light';
+        const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        return prefersDark ? "dark" : "light";
     });
 
     useEffect(() => {
-        document.documentElement.classList.toggle('dark', theme === 'dark');
-        localStorage.setItem('theme', theme);
+        document.documentElement.classList.toggle("dark", theme === "dark");
+        localStorage.setItem("theme", theme);
     }, [theme]);
 
     const handleWheelScroll = (e) => {
@@ -42,7 +42,7 @@ const Calculator = () => {
     };
 
     const handleClick = useCallback((value) => {
-        if (input.length >= MAX_INPUT_LENGTH && !['C', 'Del', '=', 'Enter'].includes(value)) {
+        if (input.length >= MAX_INPUT_LENGTH && !["C", "Del", "=", "Enter"].includes(value)) {
             setWarning(true);
             setTimeout(() => setWarning(false), 2000);
             return;
@@ -51,14 +51,14 @@ const Calculator = () => {
         const lastChar = input.slice(-1);
         const prevChar = input.slice(-2, -1);
 
-        if (value === 'C') {
-            setInput('');
-            setResult('');
-        } else if (value === 'Del') {
+        if (value === "C") {
+            setInput("");
+            setResult("");
+        } else if (value === "Del") {
             setInput(input.slice(0, -1));
-        } else if (value === '=' || value === 'Enter') {
+        } else if (value === "=" || value === "Enter") {
             try {
-                const formattedInput = input.replace(/(\d+(\.\d+)?)%/g, '($1/100)').replace(/[+\-*/%]+$/, '');
+                const formattedInput = input.replace(/(\d+(\.\d+)?)%/g, "($1/100)").replace(/[+\-*/%]+$/, "");
                 const evalResult = evaluate(formattedInput);
                 const finalResult = Number.isInteger(evalResult) ? evalResult : parseFloat(evalResult.toFixed(4));
 
@@ -69,29 +69,29 @@ const Calculator = () => {
                 setHistory(newHistory);
                 localStorage.setItem('calc-history', JSON.stringify(newHistory));
             } catch {
-                setResult('Error');
+                setResult("Error");
             }
-        } else if (value === '%') {
-            if (input && /\d$/.test(input) && !lastChar.includes('%')) {
-                setInput(input + '%');
+        } else if (value === "%") {
+            if (input && /\d$/.test(input) && !lastChar.includes("%")) {
+                setInput(input + "%");
             }
-        } else if (value === '.') {
+        } else if (value === ".") {
             const lastNum = input.split(/[+*/-]/).pop();
 
-            if (!lastNum.includes('.')) {
+            if (!lastNum.includes(".")) {
                 setInput(input + value);
             }
         } else if (operators.includes(value)) {
-            if (input === '') return;
+            if (input === "") return;
             if (operators.includes(lastChar)) {
                 setInput(input.slice(0, -1) + value);
             } else {
                 setInput(input + value);
             }
         } else {
-            if ((value === '0' || value === '00') && input === '') {
-                setInput('0');
-            } else if (lastChar === '0' && ['+', '-', '*', '/'].includes(prevChar)) {
+            if ((value === "0" || value === "00") && input === "") {
+                setInput("0");
+            } else if (lastChar === "0" && ["+", "-", "*", "/"].includes(prevChar)) {
                 return;
             } else {
                 setInput(input + value);
@@ -101,26 +101,26 @@ const Calculator = () => {
 
     const handleHistoryClick = (expression) => {
         setInput(expression);
-        setResult('');
+        setResult("");
     };
 
     const clearHistory = () => {
         setHistory([]);
-        localStorage.removeItem('calc-history');
+        localStorage.removeItem("calc-history");
     };
 
     useEffect(() => {
         const handleKeyDown = (e) => {
             const key = e.key;
-            if ((/\d/.test(key) || operators.includes(key) || key === '.' || key === 'Enter' || key === 'Backspace' || key === 'Delete' || key === '%')) {
-                if (key === 'Backspace') handleClick('Del');
-                else if (key === 'Delete') handleClick('C');
-                else if (key === 'Enter') handleClick('=');
+            if ((/\d/.test(key) || operators.includes(key) || key === "." || key === "Enter" || key === "Backspace" || key === "Delete" || key === "%")) {
+                if (key === "Backspace") handleClick("Del");
+                else if (key === "Delete") handleClick("C");
+                else if (key === "Enter") handleClick("=");
                 else handleClick(key);
             }
         };
-        window.addEventListener('keydown', handleKeyDown);
-        return () => window.removeEventListener('keydown', handleKeyDown);
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
     }, [handleClick]);
 
     return (
