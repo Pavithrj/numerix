@@ -177,7 +177,7 @@ const Calculator = () => {
                 )}
             </div>
 
-            {showHistory && history.length > 0 && (
+            {showHistory && history.length > 0 &&
                 <div className="flex flex-col w-full max-w-sm p-5 shadow-2xl bg-white/10 backdrop-blur-md rounded-2xl">
                     <ul className="flex flex-col justify-between gap-2 text-sm">
                         {history.map((item, idx) => (
@@ -197,7 +197,7 @@ const Calculator = () => {
                         ))}
                     </ul>
                 </div>
-            )}
+            }
         </div>
     )
 };
