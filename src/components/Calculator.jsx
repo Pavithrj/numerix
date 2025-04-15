@@ -131,10 +131,7 @@ const Calculator = () => {
                 </div>
             )}
 
-            <button
-                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                className={`absolute z-10 p-2 text-xl transition rounded-full shadow-2xl top-2 right-2 sm:text-sm ${theme === 'dark' ? "text-white border-gray-400" : "text-black border"}`}
-            >
+            <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className={`absolute z-10 p-2 text-xl transition rounded-full shadow-2xl top-2 right-2 sm:text-sm ${theme === 'dark' ? "text-white border-gray-400" : "text-black border"}`}>
                 {theme === 'dark' ? <Sun /> : <Moon />}
             </button>
 
