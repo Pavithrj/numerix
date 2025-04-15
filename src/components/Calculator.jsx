@@ -11,7 +11,7 @@ const buttons = [
 ];
 
 const MAX_INPUT_LENGTH = 25;
-const operators = ['+', '-', '*', '/', '%'];
+const operators = ["+", "-", "*", "/", "%"];
 
 const Calculator = () => {
     const [input, setInput] = useState('');
