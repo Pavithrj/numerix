@@ -125,11 +125,11 @@ const Calculator = () => {
 
     return (
         <div className={`flex flex-col gap-4 items-center justify-center min-h-screen p-4 transition-all duration-500 ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
-            {warning && (
+            {warning &&
                 <div className="absolute z-10 px-4 py-1 text-sm text-white transition-all duration-500 bg-yellow-500 rounded shadow-lg w-fit top-2 animate-fadeInUp">
                     Max input length reached!
                 </div>
-            )}
+            }
 
             <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className={`absolute z-10 p-2 text-xl transition rounded-full shadow-2xl top-2 right-2 sm:text-sm ${theme === 'dark' ? "text-white border-gray-400" : "text-black border"}`}>
                 {theme === 'dark' ? <Sun /> : <Moon />}
