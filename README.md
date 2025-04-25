@@ -9,25 +9,22 @@ Crafted as a **frontend-only** solution, the project emphasizes clean design, sm
 ## 🗂️ Table of Contents
 
 - [🧮 Basic Calculator Application](#-basic-calculator-application)
-  - [🗂️ Table of Contents](#️-table-of-contents)
-  - [🌐 Live Demo](#-live-demo)
-  - [⚙️ Key Features](#️-key-features)
-  - [🛠️ Technologies Used](#️-technologies-used)
-  - [🧪 Testing \& Coverage](#-testing--coverage)
-  - [🚀 Getting Started](#-getting-started)
-    - [📦 Prerequisites](#-prerequisites)
-    - [🧰 Installation Steps](#-installation-steps)
+- [🗂️ Table of Contents](#️-table-of-contents)
+- [🌐 Live Demo](#-live-demo)
+- [⚙️ Key Features](#️-key-features)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [🧪 Testing \& Coverage](#-testing--coverage)
+- [🚀 Getting Started](#-getting-started)
+- [📦 Prerequisites](#-prerequisites)
+  - [🧰 Installation Steps](#-installation-steps)
   - [🧾 Available Scripts](#-available-scripts)
-  - [🗃️ Project Structure](#️-project-structure)
-  - [🎞️ Custom Animations with Tailwind](#️-custom-animations-with-tailwind)
-  - [🖼️ Application Screenshots](#️-application-screenshots)
-    - [🌞 Light Mode](#-light-mode)
-    - [🌙 Dark Mode](#-dark-mode)
-    - [🧮 Calculation History](#-calculation-history)
-  - [💡 Meta / Inspiration](#-meta--inspiration)
-  - [🏷️ Branding \& Favicon](#️-branding--favicon)
-  - [🚄 Performance](#-performance)
-  - [🌍 Deployment](#-deployment)
+- [🗃️ Project Structure](#️-project-structure)
+- [🎞️ Custom Animations with Tailwind](#️-custom-animations-with-tailwind)
+- [🖼️ Screenshots](#️-screenshots)
+  - [🌞 Light Mode](#-light-mode)
+  - [🌙 Dark Mode](#-dark-mode)
+  - [🧮 Calculation History](#-calculation-history)
+- [🌍 Deployment](#-deployment)
 
 ---
 
@@ -145,7 +142,7 @@ extend: {
 
 ---
 
-## 🖼️ Application Screenshots
+## 🖼️ Screenshots
 
 ### 🌞 Light Mode  
 ![Light Mode](./screenshots/light-mode.png)  
@@ -158,25 +155,6 @@ A sleek dark theme suitable for low-light environments, easily toggled via the i
 ### 🧮 Calculation History  
 ![History](./screenshots/history-demo.gif)  
 Displays an animated, interactive list of recent calculations. Users can click on an entry to reuse it instantly.
-
----
-
-## 💡 Meta / Inspiration
-
-Built as a personal project to explore ReactJS, Tailwind CSS, and good UI/UX design principles.  
-The idea was to create a stylish, keyboard-friendly calculator with smooth transitions and practical functionality.
-
----
-
-## 🏷️ Branding & Favicon
-
-This calculator is branded as **Numerix** and includes a custom logo and favicon for consistent visual identity.
-
----
-
-## 🚄 Performance
-
-Optimized with **Vite** and **Tree-Shaken Tailwind CSS**, ensuring lightning-fast loading and performance across devices.
 
 ---
 
