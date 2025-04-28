@@ -1,30 +1,29 @@
+## 🗂️ Table of Contents
+
+- [🧮 Basic Calculator Application](#-basic-calculator-application)
+  - [🌐 Live Demo](#-live-demo)
+  - [⚙️ Key Features](#️-key-features)
+  - [🛠️ Technologies Used](#️-technologies-used)
+  - [🧪 Testing \& Coverage](#-testing--coverage)
+  - [🚀 Getting Started](#-getting-started)
+    - [📦 Prerequisites](#-prerequisites)
+    - [🧰 Installation Steps](#-installation-steps)
+  - [🧾 Available Scripts](#-available-scripts)
+  - [🗃️ Project Structure](#️-project-structure)
+  - [🎞️ Custom Animations with Tailwind](#️-custom-animations-with-tailwind)
+  - [🖼️ Screenshots](#️-screenshots)
+    - [🌞 Light Mode](#-light-mode)
+    - [🌙 Dark Mode](#-dark-mode)
+    - [🧮 Calculation History](#-calculation-history)
+  - [🌍 Deployment](#-deployment)
+
+---
+
 # 🧮 Basic Calculator Application
 
 A sleek, modern calculator built with **ReactJS** and **Tailwind CSS**, offering a responsive and accessible interface across devices. This application features both light and dark modes, animated calculation history, and seamless support for both keyboard and mouse inputs.
 
 Crafted as a **frontend-only** solution, the project emphasizes clean design, smooth user interactions, and practical functionality—all wrapped in a professional UI experience.
-
----
-
-## 🗂️ Table of Contents
-
-- [🧮 Basic Calculator Application](#-basic-calculator-application)
-- [🗂️ Table of Contents](#️-table-of-contents)
-- [🌐 Live Demo](#-live-demo)
-- [⚙️ Key Features](#️-key-features)
-- [🛠️ Technologies Used](#️-technologies-used)
-- [🧪 Testing \& Coverage](#-testing--coverage)
-- [🚀 Getting Started](#-getting-started)
-- [📦 Prerequisites](#-prerequisites)
-  - [🧰 Installation Steps](#-installation-steps)
-  - [🧾 Available Scripts](#-available-scripts)
-- [🗃️ Project Structure](#️-project-structure)
-- [🎞️ Custom Animations with Tailwind](#️-custom-animations-with-tailwind)
-- [🖼️ Screenshots](#️-screenshots)
-  - [🌞 Light Mode](#-light-mode)
-  - [🌙 Dark Mode](#-dark-mode)
-  - [🧮 Calculation History](#-calculation-history)
-- [🌍 Deployment](#-deployment)
 
 ---
 
