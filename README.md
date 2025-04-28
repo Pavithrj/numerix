@@ -1,6 +1,7 @@
-## 🗂️ Table of Contents
+# 🗂️ Table of Contents
 
-- [🧮 Basic Calculator Application](#-basic-calculator-application)
+- [🗂️ Table of Contents](#️-table-of-contents)
+  - [🧮 Basic Calculator Application](#-basic-calculator-application)
   - [🌐 Live Demo](#-live-demo)
   - [⚙️ Key Features](#️-key-features)
   - [🛠️ Technologies Used](#️-technologies-used)
@@ -19,7 +20,7 @@
 
 ---
 
-# 🧮 Basic Calculator Application
+## 🧮 Basic Calculator Application
 
 A sleek, modern calculator built with **ReactJS** and **Tailwind CSS**, offering a responsive and accessible interface across devices. This application features both light and dark modes, animated calculation history, and seamless support for both keyboard and mouse inputs.
 
