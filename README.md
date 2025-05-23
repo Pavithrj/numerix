@@ -9,7 +9,7 @@
 - [🚀 Getting Started](#-getting-started)
 - [🧾 Available Scripts](#-available-scripts)
 - [🗃️ Project Structure](#️-project-structure)
-- [🎞️ Custom Animations with Tailwind](#️-custom-animations-with-tailwind)
+
 - [🖼️ Screenshots](#️-screenshots)
   - [🌞 Light Mode](#-light-mode)
   - [🌙 Dark Mode](#-dark-mode)
