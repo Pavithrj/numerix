@@ -149,5 +149,3 @@ A sleek dark theme suitable for low-light environments, easily toggled via the i
 Displays an animated, interactive list of recent calculations. Users can click on an entry to reuse it instantly.
 
 ---
-
-## 🌍 Deployment
