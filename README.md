@@ -69,7 +69,7 @@ View the sample test coverage report here: [Coverage Report](./coverage/lcov-rep
 
 - Ensure Node.js and npm are installed on your machine
 
-### 🧰 Installation Steps
+
 
 ```bash
 git clone https://github.com/your-username/basic-calculator-react.git
