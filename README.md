@@ -156,4 +156,3 @@ Deployed via **GitHub Pages** for easy access and sharing.
 
 ---
 
-> 🧠 Designed and built using React and Tailwind CSS — because even math deserves a modern, stylish vibe.
