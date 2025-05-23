@@ -14,7 +14,7 @@
   - [🌞 Light Mode](#-light-mode)
   - [🌙 Dark Mode](#-dark-mode)
   - [🧮 Calculation History](#-calculation-history)
-- [🌍 Deployment](#-deployment)
+
 
 ---
 
