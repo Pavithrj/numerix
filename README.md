@@ -9,7 +9,6 @@
 - [🚀 Getting Started](#-getting-started)
 - [🧾 Available Scripts](#-available-scripts)
 - [🗃️ Project Structure](#️-project-structure)
-
 - [🖼️ Screenshots](#️-screenshots)
   - [🌞 Light Mode](#-light-mode)
   - [🌙 Dark Mode](#-dark-mode)
