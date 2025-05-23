@@ -151,4 +151,3 @@ Displays an animated, interactive list of recent calculations. Users can click o
 ---
 
 ## 🌍 Deployment
-
