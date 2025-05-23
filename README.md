@@ -7,7 +7,6 @@
 - [🛠️ Technologies Used](#️-technologies-used)
 - [🧪 Testing \& Coverage](#-testing--coverage)
 - [🚀 Getting Started](#-getting-started)
-
 - [🧾 Available Scripts](#-available-scripts)
 - [🗃️ Project Structure](#️-project-structure)
 - [🎞️ Custom Animations with Tailwind](#️-custom-animations-with-tailwind)
