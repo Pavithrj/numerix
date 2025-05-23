@@ -8,7 +8,7 @@
 - [🧪 Testing \& Coverage](#-testing--coverage)
 - [🚀 Getting Started](#-getting-started)
   - [📦 Prerequisites](#-prerequisites)
-  - [🧰 Installation Steps](#-installation-steps)
+
 - [🧾 Available Scripts](#-available-scripts)
 - [🗃️ Project Structure](#️-project-structure)
 - [🎞️ Custom Animations with Tailwind](#️-custom-animations-with-tailwind)
