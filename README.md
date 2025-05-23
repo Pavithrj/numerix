@@ -67,8 +67,6 @@ View the sample test coverage report here: [Coverage Report](./coverage/lcov-rep
 
 ### 📦 Prerequisites
 
-
-
 ```bash
 git clone https://github.com/your-username/basic-calculator-react.git
 cd basic-calculator-react
