@@ -98,8 +98,6 @@ src/
 └── README.md
 ```
 
-
-
 ## 🖼️ Screenshots
 
 ### 🌞 Light Mode  
