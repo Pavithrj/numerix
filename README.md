@@ -101,7 +101,6 @@ src/
 ---
 
 
-
 ## 🖼️ Screenshots
 
 ### 🌞 Light Mode  
