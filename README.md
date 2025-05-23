@@ -153,4 +153,3 @@ Displays an animated, interactive list of recent calculations. Users can click o
 ## 🌍 Deployment
 
 Deployed via **GitHub Pages** for easy access and sharing.
-
