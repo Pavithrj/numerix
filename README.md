@@ -15,7 +15,6 @@
   - [🌙 Dark Mode](#-dark-mode)
   - [🧮 Calculation History](#-calculation-history)
 
-
 ---
 
 ## 🧮 Basic Calculator Application
