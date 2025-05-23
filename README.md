@@ -98,7 +98,7 @@ src/
 └── README.md
 ```
 
----
+
 
 ## 🖼️ Screenshots
 
