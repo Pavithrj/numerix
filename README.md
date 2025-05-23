@@ -30,7 +30,7 @@ Crafted as a **frontend-only** solution, the project emphasizes clean design, sm
 
 ## 🌐 Live Demo
 
-🔗 [Crunch Some Numbers!](https://pavithrj.github.io/numerix/)
+🔗 [Crunch Some Numbers!](https://pavithrj.github.io/numerix)
 
 ---
 
