@@ -185,7 +185,7 @@ const Calculator = () => {
                     </ul>
                 </div>
             }
-        </div>
+        </main>
     )
 };
 
