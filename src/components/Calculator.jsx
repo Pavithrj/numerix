@@ -177,7 +177,7 @@ const Calculator = () => {
                                     {item.expression}
                                 </div>
 
-                                <span className={`${theme === 'dark' ? 'text-emerald-400' : 'text-black'}`}>
+                                <div className={`${theme === 'dark' ? 'text-emerald-400' : 'text-black'}`}>
                                     {item.result}
                                 </span>
                             </li>
