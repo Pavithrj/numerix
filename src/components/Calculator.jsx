@@ -173,7 +173,7 @@ const Calculator = () => {
                     <ul className="flex flex-col justify-between gap-2 text-sm">
                         {history.map((item, index) => (
                             <li key={index} onClick={() => handleHistoryClick(item.expression)} className={`flex justify-between transition-all duration-500 rounded cursor-pointer hover:bg-white/20 animate-fadeInUp ${theme === 'dark' ? "text-gray-300" : "text-black"}`}>
-                                <span>
+                                <div>
                                     {item.expression}
                                 </span>
 
