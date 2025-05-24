@@ -179,7 +179,7 @@ const Calculator = () => {
 
                                 <div className={`${theme === 'dark' ? 'text-emerald-400' : 'text-black'}`}>
                                     {item.result}
-                                </span>
+                                </div>
                             </li>
                         ))}
                     </ul>
