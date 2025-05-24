@@ -138,7 +138,7 @@ const Calculator = () => {
             <div className="relative flex flex-col w-full max-w-sm gap-4 p-5 shadow-2xl bg-white/10 backdrop-blur-md rounded-2xl">
                 <div className="text-right">
                     <div ref={inputRef} onWheel={handleWheelScroll} className="max-w-full overflow-hidden overflow-x-auto text-sm text-gray-400">
-                        {input || "0'}
+                        {input || "0"}
                     </div>
                     <div className="text-2xl font-bold duration-500 sm:text-3xl">
                         {result || '0'}
