@@ -141,7 +141,7 @@ const Calculator = () => {
                         {input || "0"}
                     </div>
                     <div className="text-2xl font-bold duration-500 sm:text-3xl">
-                        {result || "0'}
+                        {result || "0"}
                     </div>
                 </div>
 
