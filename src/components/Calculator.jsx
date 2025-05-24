@@ -175,7 +175,7 @@ const Calculator = () => {
                             <li key={index} onClick={() => handleHistoryClick(item.expression)} className={`flex justify-between transition-all duration-500 rounded cursor-pointer hover:bg-white/20 animate-fadeInUp ${theme === 'dark' ? "text-gray-300" : "text-black"}`}>
                                 <div>
                                     {item.expression}
-                                </span>
+                                </div>
 
                                 <span className={`${theme === 'dark' ? 'text-emerald-400' : 'text-black'}`}>
                                     {item.result}
