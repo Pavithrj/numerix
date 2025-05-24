@@ -147,7 +147,7 @@ const Calculator = () => {
 
                 <div className="grid grid-cols-4 gap-3">
                     {buttons.flat().map((btn, i) => (
-                        <button key={i} onClick={() => handleClick(btn)} className={`p-2 sm:p-4 text-base sm:text-xl rounded-xl font-semibold shadow-md transition duration-500 ease-in-out ${btn === "=" ? "col-span-1 bg-emerald-500 hover:bg-emerald-600 text-white" : btn === "C" ? 'bg-rose-500 hover:bg-rose-600 text-white' : btn === 'Del' ? 'bg-red-500 hover:bg-red-600 text-white' : '/-*+%'.includes(btn) ? 'bg-indigo-500 hover:bg-indigo-600 text-white' : 'bg-white text-gray-800 hover:bg-gray-100'}`}>
+                        <button key={i} onClick={() => handleClick(btn)} className={`p-2 sm:p-4 text-base sm:text-xl rounded-xl font-semibold shadow-md transition duration-500 ease-in-out ${btn === "=" ? "col-span-1 bg-emerald-500 hover:bg-emerald-600 text-white" : btn === "C" ? "bg-rose-500 hover:bg-rose-600 text-white" : btn === "Del" ? 'bg-red-500 hover:bg-red-600 text-white' : '/-*+%'.includes(btn) ? 'bg-indigo-500 hover:bg-indigo-600 text-white' : 'bg-white text-gray-800 hover:bg-gray-100'}`}>
                             {btn}
                         </button>
                     ))}
