@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { evaluate } from 'mathjs';
-import { Sun, Moon } from "lucide-react";
+import { Sun, Moon } from 'lucide-react";
 
 const buttons = [
     ["C", "Del", "%", "/"],
