@@ -67,7 +67,7 @@ const Calculator = () => {
                 const newEntry = { expression: input, result: finalResult };
                 const newHistory = [newEntry, ...history.slice(0, 9)];
                 setHistory(newHistory);
-                localStorage.setItem("calc-history', JSON.stringify(newHistory));
+                localStorage.setItem("calc-history", JSON.stringify(newHistory));
             } catch {
                 setResult("Error");
             }
