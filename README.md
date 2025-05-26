@@ -88,6 +88,7 @@ Numerix/
 │   │   └── numerixLogo.png
 │   ├── components/
 │   │   ├── Calculator.jsx
+│   │   ├── HistoryButtons.jsx
 ├── App.jsx
 ├── index.css
 ├── main.jsx
