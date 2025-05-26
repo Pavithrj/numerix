@@ -87,7 +87,7 @@ Numerix/
 │   ├── assets/
 │   │   └── numerixLogo.png
 │   ├── components/
-│   └── Calculator.jsx
+│   │   ├── Calculator.jsx
 ├── App.jsx
 ├── index.css
 ├── main.jsx
