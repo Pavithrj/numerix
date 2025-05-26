@@ -93,6 +93,7 @@ Numerix/
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
+├── .gitignore
 ├── main.jsx
 ├── index.html
 ├── tailwind.config.js
