@@ -114,4 +114,3 @@ A sleek dark theme suitable for low-light environments, easily toggled via the i
 ![History](./screenshots/history-demo.gif)  
 Displays an animated, interactive list of recent calculations. Users can click on an entry to reuse it instantly.
 
----
