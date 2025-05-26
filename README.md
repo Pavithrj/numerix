@@ -90,7 +90,7 @@ Numerix/
 │   │   ├── Calculator.jsx
 │   │   ├── HistoryButtons.jsx
 │   │   └── WarningMessage.jsx
-├── App.jsx
+│   ├── App.jsx
 ├── index.css
 ├── main.jsx
 ├── index.html
