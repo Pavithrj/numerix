@@ -1,6 +1,5 @@
 # 🗂️ Table of Contents
 
-
 - [🧮 Basic Calculator Application](#-basic-calculator-application)
 - [🌐 Live Demo](#-live-demo)
 - [⚙️ Key Features](#️-key-features)
