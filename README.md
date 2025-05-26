@@ -84,7 +84,7 @@ In the project directory, you can run:
 ```
 Numerix/
 ├── src/
-├── assets/
+│   ├── assets/
 │   └── NumerixLogo.png
 ├── components/
 │   └── Calculator.jsx
