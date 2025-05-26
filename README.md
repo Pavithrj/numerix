@@ -89,6 +89,7 @@ Numerix/
 │   ├── components/
 │   │   ├── Calculator.jsx
 │   │   ├── HistoryButtons.jsx
+│   │   └── WarningMessage.jsx
 ├── App.jsx
 ├── index.css
 ├── main.jsx
