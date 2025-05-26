@@ -82,6 +82,7 @@ In the project directory, you can run:
 ## 🗃️ Project Structure
 
 ```
+Numerix/
 src/
 ├── assets/
 │   └── NumerixLogo.png
