@@ -83,7 +83,7 @@ In the project directory, you can run:
 
 ```
 Numerix/
-src/
+├── src/
 ├── assets/
 │   └── NumerixLogo.png
 ├── components/
