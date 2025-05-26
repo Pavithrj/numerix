@@ -95,7 +95,6 @@ Numerix/
 │   └── main.jsx
 ├── .gitignore
 ├── eslint.config.js
-├── main.jsx
 ├── index.html
 ├── tailwind.config.js
 ├── postcss.config.js
