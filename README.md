@@ -91,7 +91,7 @@ Numerix/
 │   │   ├── HistoryButtons.jsx
 │   │   └── WarningMessage.jsx
 │   ├── App.jsx
-├── index.css
+│   ├── index.css
 ├── main.jsx
 ├── index.html
 ├── tailwind.config.js
