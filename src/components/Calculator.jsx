@@ -108,6 +108,7 @@ const Calculator = () => {
 
     const clearHistory = () => {
         setHistory([]);
+        setShowHistory(false);
         localStorage.removeItem("calc-history");
     };
 
