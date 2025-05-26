@@ -96,10 +96,12 @@ Numerix/
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
-├── tailwind.config.js
+├── package-lock.json
+├── package.json
 ├── postcss.config.js
-├── vite.config.js
-└── README.md
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
 ```
 
 ---
